@@ -4,7 +4,7 @@ WORKDIR /home/ubuntu/server
 
 RUN npm update -g npm
 
-COPY package*.json .
+COPY package*.json ./
 
 RUN npm install
 
