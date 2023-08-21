@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-console.log('----', process.env.TTT)
+console.log('----', process.env)
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
