@@ -12,7 +12,7 @@ const {
 } = require("@aws-sdk/client-secrets-manager");
 
 const getCredentials = async () => {
-  const secret_name = "qq";
+  const secret_name = "ttt";
 
   const client = new SecretsManagerClient({
     region: "us-east-1",
