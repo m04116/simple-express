@@ -35,6 +35,8 @@ const getCredentials = async () => {
 
   const secret = response.SecretString;
   console.log("--secret--", secret);
+
+  const url = process.env.DB_URL
 };
 
 getCredentials();
